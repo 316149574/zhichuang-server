@@ -15,7 +15,7 @@ router.post('/upload',upload.single('file'),async (ctx)=>{
       code : 200,
       mes: "保存图片成功",
       data: {
-         path: "http://api.zhichuang.team"+ path.replace('public','')
+         path: "http://zhichuang.team:3000"+ path.replace('public','')
       }
     }
 });
