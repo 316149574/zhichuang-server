@@ -14,7 +14,7 @@ RUN npm install
 
 EXPOSE 3000
 
-VOLUME ["/app/public"]
+# VOLUME ["/app/public"]
 
 CMD npm run server
 
