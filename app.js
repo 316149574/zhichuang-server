@@ -48,7 +48,7 @@ app.use(
       /^\/api\/addmessage/,
       /^\/api\/getnews/,
       /^\/api\/getteams/,
-      /^\/api\/addteam/,
+      /^\/api\/register/,
     ],
   })
 );
